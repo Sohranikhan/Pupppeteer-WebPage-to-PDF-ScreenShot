@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Link to PDF Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <input
+        type="text"
+        name="url"
+        id="url"
+        placeholder="Enter URL like: https://exp.com"
+      />
+
+      <select name="option" id="option">
+        <option value="image">ScreenShot</option>
+        <option value="pdf">PDF</option>
+      </select>
+      <br />
+      <button type="submit" id="submit">Submit</button>
+    </div>
+
+    <!-- <img src="/Image11329569.jpg" alt=""> -->
+
+    <div class="result"></div>
+<div class="loading"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
